@@ -1,0 +1,218 @@
+body {
+    background-color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    align-content: center;
+}
+
+table {
+    border: 2px solid rgb(129, 95, 11); 
+    width: 600px;
+    margin-left: -235px;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+
+td, th { 
+    border: 1px solid darkgoldenrod;
+    padding: 0.75rem;
+    color: black;
+}
+
+caption {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: left;
+    padding: 1 rem 0;
+    color:cadetblue;
+}
+
+tfoot tr:last-child td {
+    border-bottom: none;
+}
+
+th {
+    text-align: left;
+    background-color:darkgoldenrod;
+    color: white;
+}
+
+thead tr:first-child,
+thead tr:first-child td {
+    background-color: black;
+    text-align: center;
+    border-left: 1px solid white;
+    font-size: 1.3rem;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(184, 134, 11, 0.2);
+}
+
+tfoot tr {
+    background-color: darkgoldenrod;
+    color: white;
+    font-weight: bold;
+}
+
+.tablescroll {
+    overflow: auto;
+}
+
+header {
+    background-color: black;
+    background-position: center;
+    background-size: 100px;
+    padding: 40px;
+    height: 110px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+header .logo a {
+    background-image: url("omabakery.webp");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 160px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -30px;
+    width: 300px;
+}
+
+.features {
+    background: bisque;
+    color: gray;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.center-image {
+    display: block;        
+    margin-left: auto;     
+    margin-right: auto;   
+    max-width: 70%;       
+    height: 70%;
+}
+
+.features figure
+{
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.features figure img
+{
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0px 0px 10px;
+    width: 200px;
+}
+
+.card-container {
+    background: bisque;
+    color: gray;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container figure
+{
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+li {
+    display: inline-flexbox;
+}
+
+section {
+    display: flex;
+}
+
+li:hover {
+    background-color: rgb(184, 134, 11, 0.2);
+}
+
+div {
+    background: transparent;
+    margin: auto;
+    display: auto;
+    width: 100px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav li {    
+    display: inline-block;
+    margin-right: 20px;
+    width: 100px;
+}
+
+footer {
+    background: black;
+    color: gray;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.footerawesome {
+    font-size: 12px;
+    padding: 25px;
+}
+    
+.btn {
+    display: inline-block;
+    background: burlywood;
+    color: white;
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 8px;
+}
+
+.btn2 {
+    background: lightgreen;
+    color: white;
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:768px) {
+    .logo {
+        background: black;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .logo {
+        background: white;
+    }
+    .footerawesome
+    {
+        font-size: 16px;
+    }
+        
+}
